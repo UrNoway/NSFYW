@@ -8,15 +8,11 @@ public class HostingFactory extends AHost {
 
     private HostingFactory() { }
 
-    public static HostingFactory create(
-            String name, String uniqueFolderName, ADNS... dnsArray
-    ) {
+    public static HostingFactory create(String name, String uniqueFolderName) {
         HostingFactory f = new HostingFactory();
 
         f.name = name;
         f.uniqueFolderName = uniqueFolderName;
-
-        f.replicas.addAll(Arrays.asList(dnsArray));
 
         return f;
     }

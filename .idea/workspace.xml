@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9f53925-e2e8-4095-837c-a9c6a2d487cd" name="Changes" comment="Init">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/emptybox/ABox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/emptybox/BoxFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/emptybox/IBox.java" afterDir="false" />
+    <list default="true" id="a9f53925-e2e8-4095-837c-a9c6a2d487cd" name="Changes" comment="Box factory ready, fix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/NSFYW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/NSFYW.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/hosting/HostingFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/hosting/HostingFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +20,15 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="f8ba0082-33dd-4554-afca-803a3dea0ae8" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -49,6 +53,7 @@
     <configuration name="NSFYW" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.unelement.nsfyw.NSFYW" />
       <module name="nsfyw" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;https://github.com/UrNoway/NSFYW&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,11 +93,20 @@
       <option name="project" value="LOCAL" />
       <updated>1768838789117</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Box factory ready, fix">
+      <option name="closed" value="true" />
+      <created>1768841650547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768841650547</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Box factory ready, fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Box factory ready, fix" />
   </component>
 </project>
