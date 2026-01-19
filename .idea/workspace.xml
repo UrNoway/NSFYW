@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9f53925-e2e8-4095-837c-a9c6a2d487cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/NSFYW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/dns/ADNS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/dns/DnsFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/dns/IDNS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/hosting/AHost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/hosting/HostingFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/hosting/IHost.java" afterDir="false" />
+    <list default="true" id="a9f53925-e2e8-4095-837c-a9c6a2d487cd" name="Changes" comment="Init">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/emptybox/ABox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/emptybox/BoxFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/emptybox/IBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/hosting/HostingFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/unelement/nsfyw/service/hosting/HostingFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +80,19 @@
       <option name="presentableId" value="Default" />
       <updated>1768833847609</updated>
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <option name="closed" value="true" />
+      <created>1768838789117</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768838789117</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
 </project>

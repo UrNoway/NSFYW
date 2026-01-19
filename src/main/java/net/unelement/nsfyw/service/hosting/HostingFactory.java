@@ -8,7 +8,9 @@ public class HostingFactory extends AHost {
 
     private HostingFactory() { }
 
-    public static HostingFactory create(String name, String uniqueFolderName, ADNS... dnsArray) {
+    public static HostingFactory create(
+            String name, String uniqueFolderName, ADNS... dnsArray
+    ) {
         HostingFactory f = new HostingFactory();
 
         f.name = name;
